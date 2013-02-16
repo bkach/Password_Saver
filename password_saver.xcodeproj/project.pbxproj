@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D836AA3716CC011100FCC38D /* SiteValue.m in Sources */ = {isa = PBXBuildFile; fileRef = D836AA3616CC011100FCC38D /* SiteValue.m */; };
 		D8D8B42616CBFB4E0064CA8A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D8D8B42516CBFB4E0064CA8A /* Foundation.framework */; };
 		D8D8B42916CBFB4E0064CA8A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D8B42816CBFB4E0064CA8A /* main.m */; };
 		D8D8B42D16CBFB4E0064CA8A /* password_saver.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = D8D8B42C16CBFB4E0064CA8A /* password_saver.1 */; };
@@ -26,6 +27,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D836AA3516CC011100FCC38D /* SiteValue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SiteValue.h; sourceTree = "<group>"; };
+		D836AA3616CC011100FCC38D /* SiteValue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SiteValue.m; sourceTree = "<group>"; };
 		D8D8B42216CBFB4E0064CA8A /* password_saver */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = password_saver; sourceTree = BUILT_PRODUCTS_DIR; };
 		D8D8B42516CBFB4E0064CA8A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		D8D8B42816CBFB4E0064CA8A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -74,6 +77,8 @@
 			isa = PBXGroup;
 			children = (
 				D8D8B42816CBFB4E0064CA8A /* main.m */,
+				D836AA3516CC011100FCC38D /* SiteValue.h */,
+				D836AA3616CC011100FCC38D /* SiteValue.m */,
 				D8D8B42C16CBFB4E0064CA8A /* password_saver.1 */,
 				D8D8B42A16CBFB4E0064CA8A /* Supporting Files */,
 			);
@@ -140,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D8D8B42916CBFB4E0064CA8A /* main.m in Sources */,
+				D836AA3716CC011100FCC38D /* SiteValue.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -242,6 +248,7 @@
 				D8D8B43216CBFB4E0064CA8A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

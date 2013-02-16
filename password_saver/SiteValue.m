@@ -40,9 +40,11 @@
     [self setCount:count+1];
 }
 
-- (void) printContents;
+- (NSString*) printContents;
 {
-    NSLog(@"\nUsername: %@\nPassword: %@\nCount: %d", [self username], [self password], [self count]);
+    NSString* retString = @"";
+    retString = [retString stringByAppendingFormat: @"\nUsername: %@\nPassword: %@\nCount: %d", [self username], [self password], [self count]];
+    return retString;
 }
 
 - (id)copyWithZone:(NSZone *)zone

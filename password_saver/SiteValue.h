@@ -29,7 +29,7 @@
 
 - (id)copyWithZone:(NSZone *)zone;
 
-- (void) printContents;
+- (NSString*) printContents;
 
 
 // New object that consists of two strings and the integer count

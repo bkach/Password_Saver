@@ -41,7 +41,7 @@ int main(int argc, const char * argv[])
         // Pass 1 - Print out entries
         NSLog(@"\n\n\nAll Entries:\n\n\n");
         for ( NSString *key in login )
-            [login[key] printContents];
+            NSLog(@"\nKey: %@%@", key, [login[key] printContents]);
         
         // Delete entries
         [login removeObjectForKey:websites[9]];
@@ -51,13 +51,13 @@ int main(int argc, const char * argv[])
         // Pass 2 - Print out new list
         NSLog(@"\n\n\nThree Entries Deleted:\n\n\n");
         for ( NSString *key in login )
-            [login[key] printContents];
+            NSLog(@"\nKey: %@%@", key, [login[key] printContents]);
         
-        // Pass 3 - Increment each record, and print it out
+        // Pass 3 - Increment each record and print it out
         NSLog(@"\n\n\nAll Records Incremented:\n\n\n");
         for ( NSString *key in login ){
             [login[key] incrCount];
-            [login[key] printContents];
+            NSLog(@"\nKey: %@%@", key, [login[key] printContents]);
         }
         
     }

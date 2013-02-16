@@ -5,6 +5,7 @@
 //  Created by Boris Kachscovsky on 2/13/13.
 //  Copyright (c) 2013 Boris Kachscovsky. All rights reserved.
 //
+// Simple program that creates a dictonary of passwords and usernames for each website
 
 #import <Foundation/Foundation.h>
 #import "SiteValue.h"
